@@ -1,3 +1,23 @@
+# For Devs using the repo:
+- Clone the repo
+- Create a new staging branch from master : `staging_<your-git-name> (or any unique identifier)`
+    - Eg: *staging_monkey-d-luffy* 
+- Go through the issues
+- Solve each issues by
+   - Create a new branch for the issue: `staging_<your-git-name>/<issue-scope>-<issue-number>`
+       - If you are working on issue no:1 and it the issue is a feature the branch name would be: *staging_monkey-d-luffy/feat/1*
+   - Commit changes:
+       - Please use conventional commits format. (Use extensions to help yourself)
+       - Commit message format: `#<isssue-number>:<short-message>`
+           - Eg: *feat: :sparkles: #1: Tweaking Around with styling colors*
+   - Push commits to the branch
+   - Raise a PR to your staging branch
+   - Merge
+   - Go to staging branch
+   - Pull
+   - Repeat steps for solving the next issue
+
+
 # Welcome to your Expo app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
