@@ -4,8 +4,8 @@
     - Eg: *staging_monkey-d-luffy* 
 - Go through the issues
 - Solve each issues by
-   - Create a new branch for the issue: `staging_<your-git-name>/<issue-scope>-<issue-number>`
-       - If you are working on issue no:1 and it the issue is a feature the branch name would be: *staging_monkey-d-luffy/feat/1*
+   - Create a new branch for the issue: `staging_<your-git-name>/<task-number>`
+       - If you are working on issue no:1 and it the issue is a feature the branch name would be: *staging_monkey-d-luffy/1*
    - Commit changes:
        - Please use conventional commits format. (Use extensions to help yourself)
        - Commit message format: `#<isssue-number>:<short-message>`
