@@ -8,7 +8,6 @@ export default function Index() {
         Welcome
       </Text>
       <Link href={{ pathname: "/movie/[id]", params: { id: "avengers" } }}>Avengers</Link>
-      <Link href="/onboarding">Onboarding</Link>
       
     </View>
   );
